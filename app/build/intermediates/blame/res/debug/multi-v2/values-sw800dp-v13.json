@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\BusTrackingProject\\FPTU_Bus_Tracking_System\\Project Folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw800dp-v13\\values-sw800dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\BusTrackingProject\\FPTU_Bus_Tracking_System\\Project Folder\\app\\src\\main\\res\\values-sw800dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "98,140,55,183",
+                        "endColumns": "41,42,42,41",
+                        "endOffsets": "135,178,93,220"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,140,183",
+                        "endColumns": "41,42,42,41",
+                        "endOffsets": "92,135,178,220"
+                    }
+                }
+            ]
+        }
+    ]
+}

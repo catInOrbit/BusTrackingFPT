@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        app:cardCornerRadius="@dimen/spacing_small"
+        app:cardElevation="@dimen/card_shadow">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:id="@+id/idLayoutBusLineList"
+            >
+
+            <TextView
+                android:id="@+id/lineNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:background="@drawable/bg_square_text"
+                android:fontFamily="@font/googlesansbold"
+                android:paddingStart="@dimen/spacing_medium"
+                android:paddingTop="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_medium"
+                android:paddingBottom="@dimen/spacing_small"
+                android:text="Line 01"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_medium" />
+
+
+            <TextView
+                android:id="@+id/tvLineTypeCoach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:fontFamily="@font/googlesansbold"
+                android:gravity="end"
+                android:text="@string/volvo_bus"
+                android:textColor="@color/textchild"
+                android:textSize="@dimen/font_medium" />
+
+            <RelativeLayout
+                android:id="@+id/linellTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginEnd="@dimen/spacing_large">
+
+
+                <ImageView
+                    android:layout_width="@dimen/map_width"
+                    android:layout_height="@dimen/map_height"
+                    android:layout_marginTop="@dimen/spacing_xsmall"
+                    android:alpha="0.2"
+                    android:contentDescription="@string/txt_todo"
+                    android:src="@drawable/ic_map"
+                    />
+
+                <ImageView
+                    android:id="@+id/lineivbus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/txt_todo"
+                    android:src="@drawable/ic_bus"
+                    android:tint="@color/colorPrimary" />
+
+                <View
+                    android:id="@+id/lineView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:id="@+id/linellMIddle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/googlesansregular"
+                        android:paddingBottom="@dimen/spacing_xsmall"
+                        android:text="@string/text_duration"
+                        android:textColor="@color/textchild"
+                        android:textSize="@dimen/font_small" />
+
+                    <TextView
+                        android:id="@+id/lineName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_square_text"
+                        android:fontFamily="@font/googlesansbold"
+                        android:paddingStart="@dimen/spacing_large"
+                        android:paddingTop="@dimen/spacing_xsmall"
+                        android:paddingEnd="@dimen/spacing_large"
+                        android:paddingBottom="@dimen/spacing_small"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_large"
+                        android:text="Test line string" />
+
+                    <TextView
+                        android:id="@+id/linetvHold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/googlesansregular"
+                        android:paddingTop="@dimen/spacing_xsmall"
+                        android:paddingBottom="@dimen/spacing_xsmall"
+                        android:textAlignment="center"
+                        android:textColor="@color/textchild"
+                        android:textSize="@dimen/font_small" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/map_width"
+                    android:layout_height="@dimen/map_height"
+                    android:alpha="0.2"
+                    android:contentDescription="@string/txt_todo"
+                    android:src="@drawable/ic_map" />
+
+                <View
+                    android:id="@+id/lineview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/colorPrimary" />
+
+                <ImageView
+                    android:id="@+id/lineivbus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/txt_todo"
+                    android:src="@drawable/ic_bus"
+                    android:tint="@color/colorPrimary" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
+
+
+

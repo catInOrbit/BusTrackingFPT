@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project Folder.iml" filepath="$PROJECT_DIR$/Project Folder.iml" group="Project Folder" />
+      <module fileurl="file://$PROJECT_DIR$/app/Project Folder-app.iml" filepath="$PROJECT_DIR$/app/Project Folder-app.iml" group="Project Folder/app" />
+      <module fileurl="file://$PROJECT_DIR$/QIBus_SoftUI/QIBus_SoftUI.iml" filepath="$PROJECT_DIR$/QIBus_SoftUI/QIBus_SoftUI.iml" group="Project Folder/QIBus_SoftUI" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Project Folder/app" />
+    </modules>
+  </component>
+</project>

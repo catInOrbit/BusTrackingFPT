@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\BusTrackingProject\\FPTU_Bus_Tracking_System\\Project Folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\BusTrackingProject\\FPTU_Bus_Tracking_System\\Project Folder\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "60,102,17,145",
+                        "endColumns": "41,42,42,41",
+                        "endOffsets": "97,140,55,182"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,140,183",
+                        "endColumns": "41,42,42,41",
+                        "endOffsets": "92,135,178,220"
+                    }
+                }
+            ]
+        }
+    ]
+}

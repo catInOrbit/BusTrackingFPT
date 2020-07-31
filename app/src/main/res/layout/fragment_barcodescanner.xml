@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_small">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnAction"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/txtBarcodeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:text="No Barcode Detected"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/btn_confirmBarCode"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/txt_todo"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bg_btn_shape"
+        android:fontFamily="@font/googlesansbold"
+        android:padding="@dimen/_8sdp"
+        android:layout_alignParentBottom="true"
+
+        android:src="@drawable/ic_search_2_line"/>
+
+</RelativeLayout>
+
+
