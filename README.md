@@ -19,3 +19,6 @@ Current features in app:
  Current planed features:
  * Detailed description of bus position
  * Improvement of list design
+
+App images:
+https://imgur.com/a/3PveCym
