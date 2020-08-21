@@ -10,6 +10,7 @@ Google Map SDK
 Firebase Firestore
 
 Current features in app:
+ * Authentication for login using Firebase
  * Track real time position when app is in used and save to Firestore Firebase
  * Retreive user position in real time using Firebase
  * Retreive list of bus lines and routes in Firebase
@@ -18,8 +19,3 @@ Current features in app:
  Current planed features:
  * Detailed description of bus position
  * Improvement of list design
- 
-
-
- 
- 
