@@ -5,8 +5,12 @@ Bus tracking app for bus system used in FPT University
 This app's UI designed was built upon bus template by https://iqonic.design/
 
 ## Current technology stacks used in app:
+Firebase Authentication
+
 Google Map Direction API
+
 Google Map SDK
+
 Firebase Firestore
 
 ## Current features in app:
