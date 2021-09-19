@@ -25,4 +25,5 @@ Firebase Firestore
  * ~~Improvement of list design
 
 App images:
-![](https://imgur.com/a/3PveCym)
+https://imgur.com/a/3PveCym
+![](https://i.imgur.com/milw0zs.png) 
