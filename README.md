@@ -1,7 +1,10 @@
 # BusTrackingFPT
 Bus tracking app for bus system used in FPT University
+
 Developed by:
+
  Mao Nguyen Minh Tam (https://github.com/catInOrbit thmmao2017@gmail.com1)
+
  Nguyen Hoang Quang Huy (https://github.com/haccoco99999)
 
 # App is currently work-in-progress #
